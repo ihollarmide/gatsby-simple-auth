@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+.app__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.app__title {
+    font-size: 3rem;
+}
+
+.app__title,
+.app__attendees {
+    color: rgb(60, 60, 170);
+}
+
+.app__list--name {
+    font-size: 1.2rem;
+    padding: .8rem 0;
+}
+
+.app__button {
+    display: inline-block;
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.login {
+    background: rgb(60, 60, 170);
+    color: #fff;
+}
+
+.subscribe {
+    background: rgb(30, 168, 30);
+    color: #fff;
+}
+
+.unsubscribe {
+    background: rgb(228, 17, 17);
+    color: #fff;
+}
